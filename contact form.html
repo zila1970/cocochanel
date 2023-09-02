@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+      
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+</style>
+
+  </head>
+  <body>
+    <h1>Example for "Contact us" form"</h1>
+
+    <div class="myDiv">
+      <h2>"Contact us" form</h2>
+      <p>By using <strong>radiobuttons, checkboxes</strong> and <strong>drop-down lists</strong> examples.</p>
+    </div>
+
+    <p><strong>Online form</strong></p>
+    <br>
+    <h2>Personal Information</h2>
+    
+      <br />
+      <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">*Enter your First Name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <br />
+        <div class="form-example">
+          <label for="name">*Enter your Last Name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <br>
+         <label for="id number">*Enter your ID number: </label>
+          <input type="number" name="number" id="number" required/>
+          <br>
+          <br>
+        <div class="form-example">
+          <label for="email">*Enter your email: </label>
+          <input type="email" name="email" id="email" required /><br>
+          
+        </div>
+        <br />
+        
+        <div class="form-example">
+          <label for="phone number">Enter your phone number: </label>
+          <input type="number" name="number" id="number"/>
+          <br>
+          <br>
+          <label for="mobile phone number">Enter your mobile phone number: </label>
+          <input type="number" name="number" id="number"/>
+          <br>
+          <br>
+           <label for="password">*Enter your password: </label>
+          <input type="password" name="password" id="password" required />
+           <br />
+           <br>
+          <label style="color: red; font-size: small"><strong>*Required field</strong></label>
+        </div>
+        <br />
+        <p style="background-color: yellow;">The <strong>input type="checkbox"</strong> defines a checkbox:</p> 
+    <h2>Spoken languages</h2>
+    
+    <form action="/action_page.php">
+      <input type="checkbox" id="lang1" name="lang1" value="Hebrew" />
+      <label for="lang1">Hebrew</label><br />
+      <input type="checkbox" id="lang2" name="lang2" value="English" />
+      <label for="lang2"> English</label><br />
+      <input type="checkbox" id="lang3" name="lang3" value="Arabic" />
+      <label for="lang3"> Arabic</label><br />
+      <input type="checkbox" id="lang4" name="lang4" value="Russion" />
+      <label for="lang4"> Russian</label>
+      <br />
+     
+      <br />
+          <br />
+          
+        </div>
+             <p style="background-color: yellow;">The <strong>&lt;select&gt;</strong> element is used to create a <strong>drop-down list:</strong></p> 
+            
+             <h2>Your hobby</h2>
+
+        <label for="hobbies-select">Your hobby:</label>
+<!--The <select> element is used to create a drop-down list.-->
+<select name="hobbies" id="hobbies-select">
+  <option value="">--Please choose an option--</option>
+  <option value="cooking">cooking</option>
+  <option value="to read books">to read books</option>
+  <option value="riding the bike">riding the bike</option>
+  <option value="traveling the world">traveling the world</option>
+  <option value="playing the piano">playing the piano</option>
+  <option value="watching moovies">watching moovies</option>
+</select>
+<br>
+<br>
+    <p style="background-color: yellow;">The <strong>input type="radio"</strong> defines a radio buttons:</p>
+    <h2>Your gender</h2> 
+    
+    <p>Choose option:</p>
+
+    <form>
+        <input type="radio" id="male" name="gender" value="male" />  
+      <label for="male">male</label><br />
+       
+      <input
+        type="radio"
+        id="female"
+        name="gender"
+        value="female"
+      />
+        <label for="female">female</label><br />
+       
+      <input type="radio" id="other" name="other" value="other" />
+        <label for="other">other</label><br />
+      <br />
+      <h2>Subject</h2>
+      <br> 
+      <label for="Subject"><strong>*Subject</strong> </label>
+          <input type="text" name="Subject" id="Subject" required />
+          <br>
+          <br>
+          <h2>Message content</h2>
+          <br> 
+          <label for="message content"><strong>*Message content:</strong></label>
+          <input type="text" name="message content" id="message content" size="150px" required>
+          <br>
+          <br>
+          <label style="color: red; font-size: small"><strong>*Required field</strong></label>
+    <br>
+      <br>      
+         
+    
+         <div class="form-example">
+          <input type="submit" value="Subscribe" />
+          <input type="submit" value="Submit" />
+          <input type="submit" value="Reset">
+        </div>
+                 
+      
+    </form>
+  </body>
+</html>
+
+  
+
